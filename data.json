@@ -1,395 +1,463 @@
-{
-  "characters": [
-    {
+{"characters":[{
       "id": "arcylia",
       "name": "Arcylia Veryllis",
       "title": "Minfilia's Legacy",
-      "image": "assets/arcylia.jpg"
-    },
-    {
-      "id": "shaina",
-      "name": "Shaina Veryllis Hyskaris",
-      "title": "Exalted Heart",
-      "image": "assets/shaina.jpg"
-    },
-    {
-      "id": "kazuki",
-      "name": "Kazuki Veryllis",
-      "title": "Paragon of Light",
-      "image": "assets/kazuki.jpg"
-    },
-    {
-      "id": "c'adeyrn",
-      "name": "C'adeyrn Veryllis",
-      "title": "A Soul Reborn",
-      "image": "assets/c'adeyrn.jpg"
-    },
-    {
-      "id": "senmei",
-      "name": "Senmei Unshin",
-      "title": "Shinku no Ryū",
-      "image": "assets/senmei.jpg"
-    },
-    {
-      "id": "gwydionaux",
-      "name": "Gwydionaux Mathelain",
-      "title": "Pioneer of the Elements",
-      "image": "assets/gwydionaux.jpg"
-    },
-    {
-      "id": "x'amarelo",
-      "name": "X'amarelo Kiavan",
-      "fka": "Amarelo nan Aelianus",
-      "title": "The Maverick",
-      "image": "assets/x'amarelo.jpg"
-    },
-    {
-      "id": "eydis",
-      "name": "Eydís Hyskaris",
-      "title": "The Hand of Menphina",
-      "image": "assets/eydis.jpg"
-    },
-    {
-      "id": "momokino",
-      "name": "Momokino Tsutsukino",
-      "title": "Knowledge Seeker",
-      "image": "assets/momokino.jpg"
-    },
-    {
-      "id": "selene",
-      "name": "Selene Veryllis",
-      "title": "Lunar Matriarch of the Veryllis",
-      "image": "assets/selene.jpg"
-    },
-    {
-      "id": "helios",
-      "name": "Helios Veryllis",
-      "title": "Solar Patriarch of the Veryllis",
-      "image": "assets/helios.jpg"
-    },
-    {
-      "id": "aihari",
-      "name": "Aihari Veryllis",
-      "title": "Samayōyaiba",
-      "image": "assets/aihari.jpg"
-    },
-    {
-      "id": "eyristyr",
-      "name": "Eyristyr Byrgnthubyrwyn",
-      "title": "The Ruby Vanguard",
-      "image": "assets/eyristyr.jpg"
-    },
-    {
-      "id": "etoile",
-      "name": "Étoile Cueilloix",
-      "title": "Stern der Magier",
-      "image": "assets/etoile.jpg"
-    },
-    {
-      "id": "l'ilirhin",
-      "name": "L'ilirhin Yharnai",
-      "title": "The Missing Link",
-      "image": "assets/l'ilirhin.jpg"
-    },
-    {
-      "id": "nina-elda",
-      "name": "Nina-Elda",
-      "title": "Fleeting Arrow",
-      "image": "assets/nina-elda.jpg"
-    },
-    {
-      "id": "miyabi",
-      "name": "Miyabi Veryllis",
-      "title": "The Phoenix's Flame",
-      "image": "assets/miyabi.jpg"
-    },
-    {
-      "id": "wulf",
-      "name": "Wulf Blessgale",
-      "title": "Winds of a New World",
-      "image": "assets/wulf.png"
-    },
-    {
-      "id": "kara",
-      "name": "Kára Unshin Lesrekta",
-      "title": "Black Widow",
-      "image": "assets/kara.png"
-    },
-    {
-      "id": "aali'to",
-      "name": "Aali'to Veryllis",
-      "title": "Frontline Paladin",
-      "image": "assets/aali'to.jpg"
-    },
-    {
-      "id": "neiha",
-      "name": "Neiha Veryllis",
-      "title": "Hidden Blade",
-      "image": "assets/neiha.jpg"
-    },
-    {
-      "id": "tyrann",
-      "name": "Tyrann Tumet",
-      "title": "Freed Might",
-      "image": "assets/tyrann.jpg"
-    },
-    {
-      "id": "valdis",
-      "name": "Valdís Unshin",
-      "title": "Matriarch of the Unshin Family",
-      "image": "assets/valdis.jpg"
-    },
-    {
-      "id": "seiho",
-      "name": "Seiho Unshin",
-      "title": "Teaching Blade",
-      "image": "assets/seiho.jpg"
-    },
-    {
-      "id": "lucilia",
-      "name": "Lucilia fae Aelianus",
-      "title": "Imperatrix of the Battlefield",
-      "image": "assets/lucilia.jpg"
-    },
-    {
-      "id": "katarina",
-      "name": "Katarina Blakeswirl",
-      "title": "Child of the Dark",
-      "image": "assets/katarina.jpg"
-    },
-    {
-      "id": "x'kiavan",
-      "name": "X'kiavan Tia",
-      "title": "The Liberty Gunner",
-      "image": "assets/x'kiavan.jpg"
-    },
-    {
-      "id": "a'kuya",
-      "name": "A'kuya Unshin",
-      "title": "The Eternal Dragon",
-      "image": "assets/a'kuya.jpg"
-    },
-    {
-      "id": "adamric",
-      "name": "Adamric",
-      "title": "Bitter Remembrance",
-      "image": "assets/adamric.jpg"
-    },
-    {
-      "id": "aleksandr",
-      "name": "Aleksandr Agunnhildr",
-      "title": "Blade of the Queen",
-      "image": "assets/aleksandr.jpg"
-    },
-    {
-      "id": "al'rana",
-      "name": "Al'rana Myste",
-      "title": "Vagrant Spear",
-      "image": "assets/al'rana.jpg"
-    },
-    {
-      "id": "embla",
-      "name": "Embla Landwaker",
-      "title": "The Landwaker",
-      "image": "assets/embla.png"
-    },
-    {
-      "id": "temulun",
-      "name": "Temulun Kha",
-      "title": "Fist of the Star",
-      "image": "assets/temulun.jpg"
-    },
-    {
-      "id": "astamet",
-      "name": "Astamet Fanow",
-      "title": "Beauty of the Forest",
-      "image": "assets/astamet.jpg"
-    },
-    {
-      "id": "heidrun",
-      "name": "Heidrun Sylniar",
-      "title": "Crazed Remembrance",
-      "image": "assets/heidrun.jpg"
-    },
-    {
-      "id": "mumuni",
-      "name": "Mumuni Muni",
-      "title": "The Tycoon",
-      "image": "assets/mumuni.jpg"
-    },
-    {
-      "id": "burton",
-      "name": "Burton Keen",
-      "title": "???",
-      "image": "assets/burton.jpg"
-    },
-    {
-      "id": "lumina",
-      "name": "Lumina Evadne",
-      "title": "The Light of Gevurah",
-      "image": "assets/lumina.png"
-    },
-    {
-      "id": "y'licia",
-      "name": "Y'licia Tia",
-      "title": "Flames of Justice",
-      "image": "assets/y'licia.jpg"
-    },
-    {
-      "id": "zaya",
-      "name": "Zaya Unshin Orl",
-      "title": "Daughter of Nidhogg",
-      "image": "assets/zaya.jpg"
-    },
-    {
-      "id": "aali'a",
-      "name": "Aali'a Unshin",
-      "title": "Frontbreaker",
-      "image": "assets/aali'a.jpg"
-    },
-    {
-      "id": "stigandr",
-      "name": "Stígandr Djt-Setlas",
-      "title": "The Nameless",
-      "image": "assets/stigandr.png"
-    },
-    {
-      "id": "shiomai",
-      "name": "Shiomai Ameko",
-      "title": "The Serpent's Wave",
-      "image": "assets/shiomai.jpg"
-    },
-    {
-      "id": "fromgi",
-      "name": "Fromgi",
-      "title": "The Mage from the East",
-      "image": "assets/fromgi.jpg"
-    },
-    {
-      "id": "almas",
-      "name": "Almas Nareladi",
-      "title": "Flower Under The Sun",
-      "image": "assets/almas.jpg"
-    },
-    {
-      "id": "masamune",
-      "name": "Masamune Unshin",
-      "title": "The Old Rogue",
-      "image": "assets/masamune.jpg"
-    },
-    {
-      "id": "venus",
-      "name": "Venus Cytherea",
-      "title": "The Heartweaver",
-      "image": "assets/venus.jpg"
-    },
-    {
-      "id": "verdandi",
-      "name": "Verdandi",
-      "title": "The Golden Hand",
-      "image": "assets/verdandi.jpg"
-    },
-    {
-      "id": "myrkr",
-      "name": "Myrkr Djt-Nong",
-      "title": "Shadow for Hire",
-      "image": "assets/myrkr.jpg"
-    },
-    {
-      "id": "altheia",
-      "name": "Altheia Alcyone",
-      "title": "The Dreamweaver",
-      "image": "assets/altheia.jpg"
-    },
-    {
-      "id": "shin'iria",
-      "name": "Shin'iria Artemisia",
-      "title": "???",
-      "image": "assets/shin'iria.jpg"
-    },
-    {
-      "id": "nemesis",
-      "name": "Nemesis Jinjahl",
-      "title": "The Beast Queen",
-      "image": "assets/nemesis.jpg"
-    },
-    {
-      "id": "turan",
-      "name": "Turan Inanna",
-      "title": "???",
-      "image": "assets/turan.jpg"
-    },
-    {
-      "id": "calliope",
-      "name": "Calliope",
-      "title": "???",
-      "image": "assets/calliope.jpg"
-    },
-    {
-      "id": "kleio",
-      "name": "Kleio",
-      "title": "???",
-      "image": "assets/kleio.jpg"
-    },
-    {
-      "id": "euterpe",
-      "name": "Euterpe",
-      "title": "???",
-      "image": "assets/euterpe.jpg"
-    },
-    {
-      "id": "falke",
-      "name": "Falke Veryllis",
-      "title": "The Wretched Falcon",
-      "image": "assets/falke.jpg"
-    },
-    {
-      "id": "riko",
-      "name": "Riko Piko",
-      "title": "???",
-      "image": "assets/riko.jpg"
-    },
-    {
-      "id": "mundi",
-      "name": "Mundi Rehw-gilda",
-      "title": "???",
-      "image": "assets/mundi.jpg"
-    },
-    {
-      "id": "sindri",
-      "name": "Sindri Monnawesfv",
-      "title": "???",
-      "image": "assets/sindri.jpg"
-    },
-    {
-      "id": "daronetoile",
-      "name": "??? Cueilloix",
-      "title": "???",
-      "image": "assets/daronetoile.jpg"
-    },
-    {
-      "id": "musa",
-      "name": "Musa",
-      "title": "???",
-      "image": "assets/musa.jpg"
-    },
-    {
-      "id": "artemis",
-      "name": "Artemis",
-      "title": "???",
-      "image": "assets/artemis.jpg"
-    },
-    {
-      "id": "eule",
-      "name": "Eule",
-      "title": "???",
-      "image": "assets/eule.jpg"
-    },
-    {
-      "id": "steingrimr",
-      "name": "Steingrimr Unshin",
-      "title": "???",
-      "image": "assets/steingrimr.jpg"
-    }
-  ]
-}
+      "image": "assets/arcylia.jpg",
+      "race": "Highlander Hyur"
+    },
+{
+  "id": "shaina",
+  "name": "Shaina Veryllis Hyskaris",
+  "title": "Exalted Heart",
+  "image": "assets/shaina.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "kazuki",
+  "name": "Kazuki Veryllis",
+  "title": "Paragon of Light",
+  "image": "assets/kazuki.jpg",
+  "race": "Raen Au Ra"
+},
+{
+  "id": "c'adeyrn",
+  "name": "C'adeyrn Veryllis",
+  "title": "A Soul Reborn",
+  "image": "assets/c'adeyrn.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "senmei",
+  "name": "Senmei Unshin",
+  "title": "Shinku no Ryū",
+  "image": "assets/senmei.jpg",
+  "race": "Xaela Au Ra"
+},
+{
+  "id": "gwydionaux",
+  "name": "Gwydionaux Mathelain",
+  "title": "Pioneer of the Elements",
+  "image": "assets/gwydionaux.jpg",
+  "race": "Wildwood Elezen"
+},
+{
+  "id": "x'amarelo",
+  "name": "X'amarelo Kiavan",
+  "fka": "Amarelo nan Aelianus",
+  "title": "The Maverick",
+  "image": "assets/x'amarelo.jpg",
+  "race": "Half-Garlean Seeker of the Sun Miqo'te"
+},
+{
+  "id": "eydis",
+  "name": "Eydís Hyskaris",
+  "title": "The Hand of Menphina",
+  "image": "assets/eydis.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "momokino",
+  "name": "Momokino Tsutsukino",
+  "title": "Knowledge Seeker",
+  "image": "assets/momokino.jpg",
+  "race": "Plainsfolk Lalafell"
+},
+{
+  "id": "selene",
+  "name": "Selene Veryllis",
+  "title": "Lunar Matriarch of the Veryllis",
+  "image": "assets/selene.jpg",
+  "race": "Highlander Hyur"
+},
+{
+  "id": "helios",
+  "name": "Helios Veryllis",
+  "title": "Solar Patriarch of the Veryllis",
+  "image": "assets/helios.jpg",
+  "race": "Midlander Hyur"
+},
+{
+  "id": "aihari",
+  "name": "Aihari Veryllis",
+  "title": "Samayōyaiba",
+  "image": "assets/aihari.jpg",
+  "race": "Raen Au Ra"
+},
+{
+  "id": "eyristyr",
+  "name": "Eyristyr Byrgnthubyrwyn",
+  "title": "The Ruby Vanguard",
+  "image": "assets/eyristyr.jpg",
+  "race": "Hellsguard Roegadyn"
+},
+{
+  "id": "etoile",
+  "name": "Étoile Cueilloix",
+  "title": "Stern der Magier",
+  "image": "assets/etoile.jpg",
+  "race": "Half-Elezen Midlander Hyur"
+},
+{
+  "id": "l'ilirhin",
+  "name": "L'ilirhin Yharnai",
+  "title": "The Missing Link",
+  "image": "assets/l'ilirhin.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "nina-elda",
+  "name": "Nina-Elda",
+  "title": "Fleeting Arrow",
+  "image": "assets/nina-elda.jpg",
+  "race": "Mystel"
+},
+{
+  "id": "miyabi",
+  "name": "Miyabi Veryllis",
+  "title": "The Phoenix's Flame",
+  "image": "assets/miyabi.jpg",
+  "race": "Raen Au Ra"
+},
+{
+  "id": "wulf",
+  "name": "Wulf Blessgale",
+  "title": "Winds of a New World",
+  "image": "assets/wulf.png",
+  "race": "Midlander Hyur"
+},
+{
+  "id": "kara",
+  "name": "Kára Unshin Lesrekta",
+  "title": "Black Widow",
+  "image": "assets/kara.png",
+  "race": "Veena Viera"
+},
+{
+  "id": "aali'to",
+  "name": "Aali'to Veryllis",
+  "title": "Frontline Paladin",
+  "image": "assets/aali'to.png",
+  "race": "Keeper of the Moon Miqo'te"
+},
+{
+  "id": "neiha",
+  "name": "Neiha Veryllis",
+  "title": "Hidden Blade",
+  "image": "assets/neiha.jpg",
+  "race": "Keeper of the Moon Miqo'te"
+},
+{
+  "id": "tyrann",
+  "name": "Tyrann Tumet",
+  "title": "Freed Might",
+  "image": "assets/tyrann.jpg",
+  "race": "Xaela Au Ra"
+},
+{
+  "id": "valdis",
+  "name": "Valdís Unshin",
+  "title": "Matriarch of the Unshin Family",
+  "image": "assets/valdis.jpg",
+  "race": "Veena Viera"
+},
+{
+  "id": "seiho",
+  "name": "Seiho Unshin",
+  "title": "Teaching Blade",
+  "image": "assets/seiho.jpg",
+  "race": "Highlander Hyur"
+},
+{
+  "id": "lucilia",
+  "name": "Lucilia fae Aelianus",
+  "title": "Imperatrix of the Battlefield",
+  "image": "assets/lucilia.jpg",
+  "race": "Garlean"
+},
+{
+  "id": "katarina",
+  "name": "Katarina Blakeswirl",
+  "title": "Child of the Dark",
+  "image": "assets/katarina.jpg",
+  "race": "Midlander Hyur"
+},
+{
+  "id": "x'kiavan",
+  "name": "X'kiavan Tia",
+  "title": "The Liberty Gunner",
+  "image": "assets/x'kiavan.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "a'kuya",
+  "name": "A'kuya Unshin",
+  "title": "The Eternal Dragon",
+  "image": "assets/a'kuya.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "adamric",
+  "name": "Adamric",
+  "title": "Bitter Remembrance",
+  "image": "assets/adamric.jpg",
+  "race": "Drahn"
+},
+{
+  "id": "aleksandr",
+  "name": "Aleksandr Agunnhildr",
+  "title": "Blade of the Queen",
+  "image": "assets/aleksandr.jpg",
+  "race": "Helion Hrothgar"
+},
+{
+  "id": "al'rana",
+  "name": "Al'rana Myste",
+  "title": "Vagrant Spear",
+  "image": "assets/al'rana.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "embla",
+  "name": "Embla Landwaker",
+  "title": "The Landwaker",
+  "image": "assets/embla.png",
+  "race": "Highlander Hyur"
+},
+{
+  "id": "temulun",
+  "name": "Temulun Kha",
+  "title": "Fist of the Star",
+  "image": "assets/temulun.jpg",
+  "race": "Xaela Au Ra"
+},
+{
+  "id": "astamet",
+  "name": "Astamet Fanow",
+  "title": "Beauty of the Forest",
+  "image": "assets/astamet.jpg",
+  "race": "Vii"
+},
+{
+  "id": "heidrun",
+  "name": "Heidrun Sylniar",
+  "title": "Crazed Remembrance",
+  "image": "assets/heidrun.jpg",
+  "race": "Wildwood Elezen"
+},
+{
+  "id": "mumuni",
+  "name": "Mumuni Muni",
+  "title": "The Tycoon",
+  "image": "assets/mumuni.jpg",
+  "race": "Plainsfolk Lalafell"
+},
+{
+  "id": "burton",
+  "name": "Burton Keen",
+  "title": "???",
+  "image": "assets/burton.jpg",
+  "race": "Galdjent"
+},
+{
+  "id": "lumina",
+  "name": "Lumina Evadne",
+  "title": "The Light of Gevurah",
+  "image": "assets/lumina.png",
+  "race": "Drahn"
+},
+{
+  "id": "y'licia",
+  "name": "Y'licia Tia",
+  "title": "Flames of Justice",
+  "image": "assets/y'licia.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "zaya",
+  "name": "Zaya Unshin Orl",
+  "title": "Daughter of Nidhogg",
+  "image": "assets/zaya.jpg",
+  "race": "Xaela Au Ra"
+},
+{
+  "id": "aali'a",
+  "name": "Aali'a Unshin",
+  "title": "Frontbreaker",
+  "image": "assets/aali'a.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "stigandr",
+  "name": "Stígandr Djt-Setlas",
+  "title": "The Nameless",
+  "image": "assets/stigandr.png",
+  "race": "Rava Viera"
+},
+{
+  "id": "shiomai",
+  "name": "Shiomai Ameko",
+  "title": "The Serpent's Wave",
+  "image": "assets/shiomai.jpg",
+  "race": "Raen Au Ra"
+},
+{
+  "id": "fromgi",
+  "name": "Fromgi",
+  "title": "The Mage from the East",
+  "image": "assets/fromgi.jpg",
+  "race": "Keeper of the Moon Miqo'te"
+},
+{
+  "id": "almas",
+  "name": "Almas Nareladi",
+  "title": "Flower Under The Sun",
+  "image": "assets/almas.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "masamune",
+  "name": "Masamune Unshin",
+  "title": "The Old Rogue",
+  "image": "assets/masamune.jpg",
+  "race": "Raen Au Ra"
+},
+{
+  "id": "venus",
+  "name": "Venus Cytherea",
+  "title": "The Heartweaver",
+  "image": "assets/venus.jpg",
+  "race": "Drahn"
+},
+{
+  "id": "verdandi",
+  "name": "Verdandi",
+  "title": "The Golden Hand",
+  "image": "assets/verdandi.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "myrkr",
+  "name": "Myrkr Djt-Nong",
+  "title": "Shadow for Hire",
+  "image": "assets/myrkr.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "altheia",
+  "name": "Altheia Alcyone",
+  "title": "The Dreamweaver",
+  "image": "assets/altheia.jpg",
+  "race": "Midlander Hyur"
+},
+{
+  "id": "shin'iria",
+  "name": "Shin'iria Artemisia",
+  "title": "???",
+  "image": "assets/shin'iria.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "nemesis",
+  "name": "Nemesis Jinjahl",
+  "title": "The Beast Queen",
+  "image": "assets/nemesis.jpg",
+  "race": "Alexandrian Miqo'te"
+},
+{
+  "id": "turan",
+  "name": "Turan Inanna",
+  "title": "???",
+  "image": "assets/turan.jpg",
+  "race": "Raen Au Ra"
+},
+{
+  "id": "calliope",
+  "name": "Calliope",
+  "title": "???",
+  "image": "assets/calliope.jpg",
+  "race": "Veena Viera"
+},
+{
+  "id": "kleio",
+  "name": "Kleio",
+  "title": "???",
+  "image": "assets/kleio.jpg",
+  "race": "Lost Hrothgar"
+},
+{
+  "id": "euterpe",
+  "name": "Euterpe",
+  "title": "???",
+  "image": "assets/euterpe.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "falke",
+  "name": "Falke Veryllis",
+  "title": "The Wretched Falcon",
+  "image": "assets/falke.jpg",
+  "race": "Midlander Hyur"
+},
+{
+  "id": "riko",
+  "name": "Riko Piko",
+  "title": "???",
+  "image": "assets/riko.jpg",
+  "race": "Plainsfolk Lalafell"
+},
+{
+  "id": "mundi",
+  "name": "Mundi Rehw-gilda",
+  "title": "???",
+  "image": "assets/mundi.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "sindri",
+  "name": "Sindri Monnawesfv",
+  "title": "???",
+  "image": "assets/sindri.jpg",
+  "race": "Rava Viera"
+},
+{
+  "id": "daronetoile",
+  "name": "??? Cueilloix",
+  "title": "???",
+  "image": "assets/daronetoile.jpg",
+  "race": "Wildwood Elezen"
+},
+{
+  "id": "musa",
+  "name": "Musa",
+  "title": "???",
+  "image": "assets/musa.jpg",
+  "race": "Wildwood Elezen"
+},
+{
+  "id": "artemis",
+  "name": "Artemis",
+  "title": "???",
+  "image": "assets/artemis.jpg",
+  "race": "Veena Viera"
+},
+{
+  "id": "eule",
+  "name": "Eule",
+  "title": "???",
+  "image": "assets/eule.jpg",
+  "race": "Seeker of the Sun Miqo'te"
+},
+{
+  "id": "steingrimr",
+  "name": "Steingrimr Unshin",
+  "title": "???",
+  "image": "assets/steingrimr.jpg",
+  "race": "Rava Viera"
+},
+  {
+    "id": "aoife",
+    "name": "Aoife Veryllis",
+    "title": "The Veryllian Fell Star",
+    "image": "assets/aoife.jpg",
+    "race": "Voidsent Xaela Au Ra"
+  }]}

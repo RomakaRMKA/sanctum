@@ -1,0 +1,25 @@
+body {
+    font-family: 'Darker Grotesque', Arial, sans-serif;
+    background: #f8f9fa;
+}
+h1, h2, .form-label, .btn, .list-group-item {
+    font-family: 'Darker Grotesque', Arial, sans-serif;
+}
+#character-list .list-group-item {
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#character-list .list-group-item:hover {
+    background: #e9ecef;
+}
+#editor-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 24px;
+}
+#portrait-preview {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 8px;
+} 
