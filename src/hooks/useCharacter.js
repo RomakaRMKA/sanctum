@@ -1,5 +1,12 @@
 import { useState, useEffect } from 'react'
 
+function withBase(path) {
+  const base = import.meta.env.BASE_URL || '/'
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`
+  const normalizedPath = path.replace(/^\/+/, '')
+  return `${normalizedBase}${normalizedPath}`
+}
+
 export function useCharacterOrder() {
   const [order, setOrder] = useState([])
   const [loading, setLoading] = useState(true)
@@ -8,7 +15,7 @@ export function useCharacterOrder() {
   useEffect(() => {
     async function fetchOrder() {
       try {
-        const res = await fetch('/characters/order.json')
+        const res = await fetch(withBase('characters/order.json'))
         if (!res.ok) throw new Error('Failed to fetch character order')
         const data = await res.json()
         setOrder(data)
@@ -34,7 +41,7 @@ export function useCharacterData(dir) {
       try {
         let data = null
         try {
-          const res = await fetch(`/characters/${dir}/data.json`)
+          const res = await fetch(withBase(`characters/${dir}/data.json`))
           if (res.ok) {
             data = await res.json()
           }
@@ -42,27 +49,15 @@ export function useCharacterData(dir) {
           data = null
         }
 
-        // Try jpg first, then png
-        let imageUrl = `/characters/${dir}/assets/portrait.jpg`
-        let imgRes = await fetch(imageUrl)
-        const size = parseInt(imgRes.headers.get('content-length') || '0', 10)
-        
-        // Check status and reasonable file size (real images should be > 10KB)
-        if (!imgRes.ok || size < 10000) {
-          imageUrl = `/characters/${dir}/assets/portrait.png`
-          imgRes = await fetch(imageUrl)
-          const pngSize = parseInt(imgRes.headers.get('content-length') || '0', 10)
-          
-          if (!imgRes.ok || pngSize < 10000) {
-            imageUrl = '/placeholder.jpg'
-          }
-        }
+        const configuredImage = (data?.image || 'assets/portrait.jpg').replace(/^\/+/, '')
+        const imageUrl = withBase(`characters/${dir}/${configuredImage}`)
 
         setCharacter({
           id: data?.id || dir,
           name: data?.name || dir,
           title: data?.title || 'Missing Data',
           image: imageUrl,
+          fallbackImage: withBase('placeholder.jpg'),
           race: data?.race || '',
         })
       } catch (err) {
