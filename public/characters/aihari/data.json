@@ -3,5 +3,6 @@
   "name": "Aihari Veryllis",
   "title": "Samayōyaiba",
   "image": "assets/portrait.jpg",
-  "race": "Raen Au Ra"
-} 
+  "race": "Raen Au Ra",
+  "affiliations": ["Eastern Branch of the Veryllis"]
+}

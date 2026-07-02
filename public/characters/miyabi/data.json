@@ -3,5 +3,13 @@
   "name": "Miyabi Veryllis",
   "title": "The Phoenix's Flame",
   "image": "assets/portrait.jpg",
-  "race": "Raen Au Ra"
-} 
+  "race": "Raen Au Ra",
+  "age": "24",
+  "affiliations": [
+    "Eastern Branch of the Veryllis"
+  ],
+  "bio": "Miyabi is bold, fast-moving, and fiercely protective of her allies. She prefers direct action, but her growing sense of responsibility is shaping her into a disciplined leader.",
+  "gallery": [
+    "assets/portrait.jpg"
+  ]
+}

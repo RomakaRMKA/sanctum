@@ -3,5 +3,11 @@
   "name": "Shaina Veryllis Hyskaris",
   "title": "Exalted Heart",
   "image": "assets/portrait.jpg",
-  "race": "Rava Viera"
-} 
+  "race": "Rava Viera",
+  "age": "ARA+3",
+  "affiliations": [
+    "The Fatesingers",
+    "Main Branch of the Veryllis"
+  ],
+  "bio": "Born from a mysterious salve-maker and a rogue hunter who left Hyskaris, Shaina's childhood was far from ordinary. She was cursed with short ears, unable to hear the green word, and treated as an anomaly by her peers. Ultimately, she was abandoned by her village, only to be found by Kazuki. She was brought to the leaders of the eastern branch of the Veryllis Clan, and raised as their daughter. She became a retainer to Arcylia, and replaced her as the Warrior of Light when she was brought to the Ebony Chamber.\n\nYours is a journey without end, conceived and guided by principle. Hold fast to what you must, and meet your fate without fear. Go forth. Discover. Unite the stars unto one. Let none bar your path."
+}

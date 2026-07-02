@@ -1,0 +1,1 @@
+- rework affiliations : make them objects and order them by "priority". on the character panel, display them all, and on the character grids, group up characters based on their primary affiliation

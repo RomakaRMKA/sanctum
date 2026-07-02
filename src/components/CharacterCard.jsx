@@ -1,6 +1,6 @@
 import './CharacterCard.css'
 
-export default function CharacterCard({ character }) {
+export default function CharacterCard({ character, onClick }) {
   const handleImageError = (e) => {
     const fallback = character.fallbackImage || '/placeholder.jpg'
     if (e.currentTarget.src !== fallback) {
@@ -9,7 +9,7 @@ export default function CharacterCard({ character }) {
   }
 
   return (
-    <div className="character-box">
+    <button type="button" className="character-box" onClick={onClick}>
       <img
         className="character-image"
         src={character.image}
@@ -18,6 +18,6 @@ export default function CharacterCard({ character }) {
       />
       <p className="character-name">{character.name}</p>
       <p className="character-title">{character.title}</p>
-    </div>
+    </button>
   )
 }

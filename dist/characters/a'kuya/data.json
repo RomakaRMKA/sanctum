@@ -2,6 +2,14 @@
   "id": "a'kuya",
   "name": "A'kuya Unshin",
   "title": "The Eternal Dragon",
+  "image": "assets/portrait.jpg",
   "race": "Seeker of the Sun Miqo'te",
-  "bio": "test"
+  "age": "29",
+  "affiliations": [
+    "The Sanctum"
+  ],
+  "bio": "A'kuya guards the old teachings of the Sanctum and acts as one of its spiritual anchors. She is calm under pressure and known for decisive guidance when conflicts rise.",
+  "gallery": [
+    "assets/portrait.jpg"
+  ]
 }

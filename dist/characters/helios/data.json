@@ -3,5 +3,6 @@
   "name": "Helios Veryllis",
   "title": "Solar Patriarch of the Veryllis",
   "image": "assets/portrait.jpg",
-  "race": "Midlander Hyur"
-} 
+  "race": "Midlander Hyur",
+  "affiliations": []
+}

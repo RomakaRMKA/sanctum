@@ -3,5 +3,6 @@
   "name": "Kazuki Veryllis",
   "title": "Paragon of Light",
   "image": "assets/portrait.jpg",
-  "race": "Raen Au Ra"
-} 
+  "race": "Raen Au Ra",
+  "affiliations": ["The Hopesingers"]
+}

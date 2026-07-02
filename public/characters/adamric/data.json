@@ -3,5 +3,13 @@
   "name": "Adamric",
   "title": "Bitter Remembrance",
   "image": "assets/portrait.jpg",
-  "race": "Drahn"
-} 
+  "race": "Drahn",
+  "age": "34",
+  "affiliations": [
+    "Venus' Party"
+  ],
+  "bio": "A veteran strategist whose sharp memory carries the cost of every campaign. Adamric balances duty and regret while safeguarding those under his command.",
+  "gallery": [
+    "assets/portrait.jpg"
+  ]
+}

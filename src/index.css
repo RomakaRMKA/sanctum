@@ -1,5 +1,9 @@
 body {
-    font-family: "Montserrat", serif
+    font-family: "Montserrat", serif;
+}
+
+body.modal-open {
+    overflow: hidden;
 }
 
 #pagetitle {
@@ -7,11 +11,22 @@ body {
     text-align: center;
 }
 
-#charagrid {
+.faction-section {
+    margin-bottom: 40px;
+}
+
+.faction-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.character-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
+    row-gap: 5px;
 }

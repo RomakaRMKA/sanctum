@@ -3,5 +3,6 @@
   "name": "Gwydionaux Mathelain",
   "title": "Pioneer of the Elements",
   "image": "assets/portrait.jpg",
-  "race": "Wildwood Elezen"
-} 
+  "race": "Wildwood Elezen",
+  "affiliations": ["The Hopesingers"]
+}

@@ -7,6 +7,35 @@ function withBase(path) {
   return `${normalizedBase}${normalizedPath}`
 }
 
+function normalizeCharacter(dir, data) {
+  const configuredImage = (data?.image || 'assets/portrait.jpg').replace(/^\/+/, '')
+  const imageUrl = withBase(`characters/${dir}/${configuredImage}`)
+  const fallbackImage = withBase('placeholder.jpg')
+  const configuredGallery = Array.isArray(data?.gallery)
+    ? data.gallery
+    : [configuredImage]
+  const normalizedGallery = configuredGallery
+    .map((entry) => String(entry || '').replace(/^\/+/, ''))
+    .filter(Boolean)
+
+  const gallery = normalizedGallery.length > 0
+    ? normalizedGallery.map((entry) => withBase(`characters/${dir}/${entry}`))
+    : [imageUrl]
+
+  return {
+    id: data?.id || dir,
+    name: data?.name || dir,
+    title: data?.title || 'Missing Data',
+    image: imageUrl,
+    fallbackImage,
+    race: data?.race || '',
+    age: data?.age || 'Unknown',
+    affiliations: Array.isArray(data?.affiliations) ? data.affiliations : [],
+    bio: data?.bio || 'No biography available yet.',
+    gallery,
+  }
+}
+
 export function useCharacterOrder() {
   const [order, setOrder] = useState([])
   const [loading, setLoading] = useState(true)
@@ -31,44 +60,45 @@ export function useCharacterOrder() {
   return { order, loading, error }
 }
 
-export function useCharacterData(dir) {
-  const [character, setCharacter] = useState(null)
+export function useAllCharacters(order) {
+  const [characters, setCharacters] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    async function fetchData() {
+    if (order.length === 0) {
+      setLoading(false)
+      return
+    }
+
+    let cancelled = false
+
+    async function fetchAll() {
       try {
-        let data = null
-        try {
-          const res = await fetch(withBase(`characters/${dir}/data.json`))
-          if (res.ok) {
-            data = await res.json()
+        const results = await Promise.all(order.map(async (dir) => {
+          let data = null
+          try {
+            const res = await fetch(withBase(`characters/${dir}/data.json`))
+            if (res.ok) data = await res.json()
+          } catch (e) {
+            data = null
           }
-        } catch (e) {
-          data = null
-        }
-
-        const configuredImage = (data?.image || 'assets/portrait.jpg').replace(/^\/+/, '')
-        const imageUrl = withBase(`characters/${dir}/${configuredImage}`)
-
-        setCharacter({
-          id: data?.id || dir,
-          name: data?.name || dir,
-          title: data?.title || 'Missing Data',
-          image: imageUrl,
-          fallbackImage: withBase('placeholder.jpg'),
-          race: data?.race || '',
-        })
+          return normalizeCharacter(dir, data)
+        }))
+        if (!cancelled) setCharacters(results)
       } catch (err) {
-        setError(err.message)
+        if (!cancelled) setError(err.message)
       } finally {
-        setLoading(false)
+        if (!cancelled) setLoading(false)
       }
     }
 
-    if (dir) fetchData()
-  }, [dir])
+    fetchAll()
 
-  return { character, loading, error }
+    return () => {
+      cancelled = true
+    }
+  }, [order])
+
+  return { characters, loading, error }
 }

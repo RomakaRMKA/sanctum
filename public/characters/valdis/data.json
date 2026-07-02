@@ -3,5 +3,6 @@
   "name": "Valdís Unshin",
   "title": "Matriarch of the Unshin Family",
   "image": "assets/portrait.jpg",
-  "race": "Veena Viera"
-} 
+  "race": "Veena Viera",
+  "affiliations": ["The Unshin Clan"]
+}

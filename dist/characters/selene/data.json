@@ -3,5 +3,13 @@
   "name": "Selene Veryllis",
   "title": "Lunar Matriarch of the Veryllis",
   "image": "assets/portrait.jpg",
-  "race": "Highlander Hyur"
-} 
+  "race": "Highlander Hyur",
+  "age": "42",
+  "affiliations": [
+    "House Veryllis"
+  ],
+  "bio": "Selene leads her household with a measured voice and iron conviction. Her diplomacy keeps rival factions at bay while she quietly prepares the next generation.",
+  "gallery": [
+    "assets/portrait.jpg"
+  ]
+}
